@@ -10,6 +10,7 @@ function setup() {
 }
 
 function draw() {
+  console.log("Hello");
   background(255,255,255); 
   movingRect.x = mouseX;
   movingRect.y = mouseY;
